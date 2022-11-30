@@ -1,0 +1,46 @@
+Visualisasi -> menampilkan
+Lambda -> Preprocessing
+RegEx -> Preprocessing
+
+			histogram
+kalimat = "aku suka ayam ayam suka aku suka suka aku ayam aku ayam"
+tes = kalimat.split()
+plt.hist(tes)
+split -> untuk memisahkan list dalam bentuk kalimat
+set(kalimat.split()) -> untuk memisahkan kata unik di variabel kalimat
+len(set(kalimat.split())) -> untuk menghitung jumlah kata unik di variabel kalimat
+
+plt.bar(kamus.keys(), kamus.values())
+plt.bar(x, y) -> (ada komponen x dan y)
+
+lambda = fungsi yg tidak punya nama dan sekali hidup. ex :
+
+			RegEx
+import re 
+\d = semua angka
+\w = angka, huruf, _
+\D = selain angka
+\W = selain angka, huruf, _
+\space = space
+\. = .
+[] = atau
+| = or
+. = seluruh karakter
+* = sampai habis
++ = sampai ketemu space
+{} = apapun yg sesuai dalam kurung
+(?=__) = akhiran
+(?<=__) = awalan
+
+ex: minggu ku naik motor R555xy
+\d+ -> 555
+\w{3} -> min, ggu, nai, mot, r55, 5xy
+\w+(?=u) -> mingg, k
+\w+(?<=u) -> minggu, ku
+
+
+R\ \d\d\d\d\ \w\w
+
+\d{1,3} = angka dari rentang 1-3
+
+

@@ -1,0 +1,22 @@
+
+kata.values -> merubah bentuk tipe data dtype ke list
+print(len(kalimat_panjang.split())) -> 
+
+regex
+^ = selain
+[^A-Za-z ] = selain A-Z a-z dan space
+
+		Word to Vector
+CBOW -> konteks ke target
+Skip Gram -> target ke konteks
+
+step :
+- membaca file csv
+- mendeklarasikan nilai dari x dan y
+- merubah tipe data dari dtype ke bentuk list string menggunakan values
+- membuat otak tfidf -> fit ke (x)
+- mengubah bentuk string ke bentuk angka menggunakan transform(x).toarray()
+- membuat batas dan menentukan titik untuk train data
+- lalu klasifikasi menggunakan knc 
+- fit(x_train, y_train)
+- munculkan akurasi skor dengan accuracy_score

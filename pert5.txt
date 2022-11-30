@@ -1,0 +1,10 @@
+
+
+- Normalisasi
+- sudut 0 derajat memiliki makna yang sama
+- sudut 90 derajat tidak memiliki korelasi 
+
+perbedaan tfidf dan word2vec
+- jika kata banyak >= 300 memakai word2vec, jika < maka memakai tfidf
+- berapa banyak kata tetap menghasilkan vektor 2 dimensi
+
